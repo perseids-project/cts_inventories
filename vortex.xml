@@ -1,0 +1,16 @@
+<?xml-model href="../../TextInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TextInventory xmlns="http://chs.harvard.edu/xmlns/cts3/ti" tiid="epifacs" tiversion="3.0.rc1">
+    <ctsnamespace abbr="pdltmp" ns="http://data.perseus.org/ns/cts/pdltmp">
+        <description xml:lang="eng">PDL Temporary Collection</description>
+    </ctsnamespace>
+    <collection id="vortex">
+        <title xmlns="http://purl.org/dc/elements/1.1/" xml:lang="eng">Inscriptions in EAGLE</title>
+        <rights xmlns="http://purl.org/dc/elements/1.1/" xml:lang="eng">Licensed under the terms of Creative Commons attribution-share-alike license.</rights>
+    </collection>
+    <textgroup projid="pdltmp:vortex" urn="urn:cts:pdltmp:vortex">
+        <groupname xml:lang="eng">Vortex</groupname>
+        <work projid="pdltmp:img001" urn="urn:cts:pdltmp:vortex.img001" xml:lang="eng">
+            <title xml:lang="eng">Image Annotations</title>
+        </work>
+    </textgroup>
+</TextInventory>

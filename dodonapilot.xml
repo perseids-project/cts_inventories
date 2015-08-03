@@ -1,0 +1,15 @@
+<?xml-model href="../../TextInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TextInventory xmlns="http://chs.harvard.edu/xmlns/cts3/ti" tiid="epifacs" tiversion="3.0.rc1">
+    <ctsnamespace abbr="pdlepi" ns="http://data.perseus.org/ns/cts/ig">
+        <description xml:lang="eng">PDL Epigraphy General Collection</description>
+    </ctsnamespace>
+    <textgroup projid="pdlepi:dodona" urn="urn:cts:pdlepi:dodona">
+        <groupname xml:lang="eng">Dodona</groupname>
+        <work projid="pdlepi:dvr2168" urn="urn:cts:pdlepi:dodona.dvr2168" xml:lang="grc">
+            <title xml:lang="fre">DVR 2168</title>
+        </work>
+        <work projid="pdlepi:dvr2177a_b" urn="urn:cts:pdlepi:dodona.dvr2177a_b" xml:lang="grc">
+            <title xml:lang="fre">DVR 2177A+B</title>
+        </work>
+    </textgroup>
+</TextInventory>
